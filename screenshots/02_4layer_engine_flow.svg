@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="860" viewBox="0 0 1440 860" fill="none">
+  <defs>
+    <linearGradient id="bgGrad2" x1="720" y1="0" x2="720" y2="860" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B0D16"/>
+      <stop offset="100%" stop-color="#06070A"/>
+    </linearGradient>
+    <linearGradient id="brandGrad2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="50%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="860" rx="14" fill="url(#bgGrad2)"/>
+  <rect x="0.5" y="0.5" width="1439" height="859" rx="13.5" stroke="#1E2230"/>
+
+  <!-- Left Sidebar -->
+  <rect x="1" y="1" width="256" height="858" rx="13" fill="#08090E"/>
+  <line x1="257" y1="1" x2="257" y2="859" stroke="#1B1E2B" stroke-width="1"/>
+
+  <!-- Brand Header -->
+  <rect x="20" y="22" width="38" height="38" rx="10" fill="url(#brandGrad2)"/>
+  <path d="M39 30L47 34V41C47 46 43.5 50 39 52C34.5 50 31 46 31 41V34L39 30Z" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <path d="M36 41L38.2 43.2L42.5 38.5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="68" y="39" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="15" font-weight="700">LedgerGuard AI</text>
+  <text x="68" y="55" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11" font-weight="500">AP Audit Intelligence</text>
+
+  <text x="24" y="92" fill="#64748B" font-family="Inter, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">WORKSPACE VIEWS</text>
+
+  <!-- Nav Items (4-Layer Engine Flow Active) -->
+  <rect x="16" y="104" width="224" height="40" rx="10" fill="transparent"/>
+  <circle cx="34" cy="124" r="4" fill="#64748B"/>
+  <text x="48" y="129" fill="#94A3B8" font-family="Inter, sans-serif" font-size="13" font-weight="500">Overview &amp; Live Demo</text>
+
+  <rect x="16" y="150" width="224" height="40" rx="10" fill="transparent"/>
+  <circle cx="34" cy="170" r="4" fill="#64748B"/>
+  <text x="48" y="175" fill="#94A3B8" font-family="Inter, sans-serif" font-size="13" font-weight="500">Triage Workbench</text>
+  <rect x="184" y="160" width="44" height="20" rx="6" fill="#F59E0B" fill-opacity="0.15" stroke="#F59E0B" stroke-opacity="0.35"/>
+  <text x="206" y="174" text-anchor="middle" fill="#FCD34D" font-family="JetBrains Mono, monospace" font-size="11" font-weight="600">1,000</text>
+
+  <rect x="16" y="196" width="224" height="40" rx="10" fill="#6366F1" fill-opacity="0.16" stroke="#6366F1" stroke-opacity="0.4"/>
+  <circle cx="34" cy="216" r="5" fill="#818CF8"/>
+  <text x="48" y="221" fill="#E0E7FF" font-family="Inter, sans-serif" font-size="13" font-weight="600">4-Layer Engine Flow</text>
+
+  <rect x="16" y="242" width="224" height="40" rx="10" fill="transparent"/>
+  <circle cx="34" cy="262" r="4" fill="#64748B"/>
+  <text x="48" y="267" fill="#94A3B8" font-family="Inter, sans-serif" font-size="13" font-weight="500">Stage 6 Benchmarks</text>
+  <rect x="186" y="252" width="42" height="20" rx="6" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-opacity="0.35"/>
+  <text x="207" y="266" text-anchor="middle" fill="#6EE7B7" font-family="JetBrains Mono, monospace" font-size="11" font-weight="600">100%</text>
+
+  <!-- Sidebar Footer -->
+  <line x1="20" y1="690" x2="236" y2="690" stroke="#1B1E2B"/>
+  <rect x="16" y="706" width="224" height="38" rx="10" fill="#6366F1"/>
+  <text x="128" y="730" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="12.5" font-weight="600">＋ Test Live Invoice</text>
+  <rect x="16" y="752" width="224" height="36" rx="10" fill="#12141D" stroke="#232736"/>
+  <text x="115" y="775" text-anchor="middle" fill="#CBD5E1" font-family="Inter, sans-serif" font-size="12.5" font-weight="500">Audit Trail Log</text>
+  <rect x="16" y="800" width="224" height="36" rx="10" fill="#0D0F17" stroke="#1B1E2B"/>
+  <circle cx="32" cy="818" r="4.5" fill="#10B981"/>
+  <text x="45" y="822" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11.5" font-weight="500">Engine Online • 0.23s (10k)</text>
+
+  <!-- Top Context Bar -->
+  <line x1="257" y1="57" x2="1440" y2="57" stroke="#1B1E2B"/>
+  <text x="292" y="34" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="14" font-weight="600">4-Layer Engine Flow</text>
+  <text x="442" y="34" fill="#64748B" font-family="Inter, sans-serif" font-size="13">/  Interactive Pipeline Architecture &amp; Live Scenario Simulator</text>
+
+  <!-- Section Title -->
+  <text x="292" y="96" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="22" font-weight="700">How LedgerGuard AI Evaluates Every Incoming AP Voucher</text>
+  <text x="292" y="118" fill="#94A3B8" font-family="Inter, sans-serif" font-size="13.5">Every invoice passes through 4 sequential forensic layers before disbursement approval.</text>
+
+  <!-- 4 Horizontal Step Cards -->
+  <!-- Step 1 -->
+  <rect x="292" y="138" width="263" height="190" rx="14" fill="#0F1117" stroke="#252A3D"/>
+  <rect x="312" y="158" width="84" height="24" rx="6" fill="#6366F1" fill-opacity="0.16"/>
+  <text x="354" y="174" text-anchor="middle" fill="#A5B4FC" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">LAYER 01</text>
+  <text x="312" y="206" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="15" font-weight="700">Math &amp; GSTIN Gate</text>
+  <text x="312" y="230" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">Verifies 15-char Indian GSTIN Mod-36</text>
+  <text x="312" y="248" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">check digit, 18% GST tax math, and</text>
+  <text x="312" y="266" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">OCR confidence ≥ 0.80.</text>
+  <rect x="312" y="286" width="223" height="26" rx="6" fill="#151926"/>
+  <text x="324" y="303" fill="#FCD34D" font-family="JetBrains Mono, monospace" font-size="10.5">→ ABSTAIN_MANUAL_OCR_VERIFY</text>
+
+  <!-- Step 2 -->
+  <rect x="575" y="138" width="263" height="190" rx="14" fill="#131726" stroke="#6366F1" stroke-width="1.5"/>
+  <rect x="595" y="158" width="84" height="24" rx="6" fill="#10B981" fill-opacity="0.18"/>
+  <text x="637" y="174" text-anchor="middle" fill="#6EE7B7" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">LAYER 02</text>
+  <text x="595" y="206" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="15" font-weight="700">Fuzzy OCR &amp; Alias Match</text>
+  <text x="595" y="230" fill="#CBD5E1" font-family="Inter, sans-serif" font-size="12">Blocks on (vendor_id, gross_total),</text>
+  <text x="595" y="248" fill="#CBD5E1" font-family="Inter, sans-serif" font-size="12">normalizes 0↔O / 1↔I homoglyphs,</text>
+  <text x="595" y="266" fill="#CBD5E1" font-family="Inter, sans-serif" font-size="12">and clears 30-day monthly retainers.</text>
+  <rect x="595" y="286" width="223" height="26" rx="6" fill="#192036"/>
+  <text x="607" y="303" fill="#A5B4FC" font-family="JetBrains Mono, monospace" font-size="10.5">→ Jaro-Winkler ≥ 0.88 Match</text>
+
+  <!-- Step 3 -->
+  <rect x="858" y="138" width="263" height="190" rx="14" fill="#0F1117" stroke="#252A3D"/>
+  <rect x="878" y="158" width="84" height="24" rx="6" fill="#F59E0B" fill-opacity="0.16"/>
+  <text x="920" y="174" text-anchor="middle" fill="#FCD34D" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">LAYER 03</text>
+  <text x="878" y="206" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="15" font-weight="700">Shared Bank Graph Link</text>
+  <text x="878" y="230" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">Builds bipartite graph connecting</text>
+  <text x="878" y="248" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">Supplier IDs to IFSC + Bank Account</text>
+  <text x="878" y="266" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">nodes to catch collusion rings.</text>
+  <rect x="878" y="286" width="223" height="26" rx="6" fill="#151926"/>
+  <text x="890" y="303" fill="#F472B6" font-family="JetBrains Mono, monospace" font-size="10.5">→ In-Degree &gt; 1 Bank Node</text>
+
+  <!-- Step 4 -->
+  <rect x="1141" y="138" width="263" height="190" rx="14" fill="#0F1117" stroke="#252A3D"/>
+  <rect x="1161" y="158" width="84" height="24" rx="6" fill="#EC4899" fill-opacity="0.16"/>
+  <text x="1203" y="174" text-anchor="middle" fill="#F472B6" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">LAYER 04</text>
+  <text x="1161" y="206" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="15" font-weight="700">72h Split-PO &amp; Drift</text>
+  <text x="1161" y="230" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">Detects multiple sub-₹50k invoices</text>
+  <text x="1161" y="248" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">within 72h summing &gt; ₹50,000 and</text>
+  <text x="1161" y="266" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">unit price drift &gt; 1.20x median.</text>
+  <rect x="1161" y="286" width="223" height="26" rx="6" fill="#151926"/>
+  <text x="1173" y="303" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="10.5">→ SPLIT_THRESHOLD_BYPASS</text>
+
+  <!-- Interactive Invoice Simulator Box -->
+  <rect x="292" y="352" width="1112" height="474" rx="16" fill="#0F1117" stroke="#252A3D"/>
+  <text x="324" y="390" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="17" font-weight="700">Interactive Invoice Simulator — Trace Any Scenario Through the 4 Layers</text>
+  <text x="324" y="412" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12.5">Click a real fraud or hard-negative scenario below to inspect how each layer evaluates the voucher:</text>
+
+  <!-- Scenario Selector Tabs -->
+  <rect x="324" y="430" width="250" height="38" rx="9" fill="#6366F1" fill-opacity="0.2" stroke="#6366F1"/>
+  <text x="449" y="454" text-anchor="middle" fill="#E0E7FF" font-family="Inter, sans-serif" font-size="12.5" font-weight="600">1. OCR Typo Duplicate (0↔O)</text>
+
+  <rect x="586" y="430" width="250" height="38" rx="9" fill="#141824" stroke="#23283B"/>
+  <text x="711" y="454" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12.5" font-weight="500">2. Split-PO Bypass (&gt;₹50k in 72h)</text>
+
+  <rect x="848" y="430" width="250" height="38" rx="9" fill="#141824" stroke="#23283B"/>
+  <text x="973" y="454" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12.5" font-weight="500">3. Shared Bank Account Ring</text>
+
+  <rect x="1110" y="430" width="262" height="38" rx="9" fill="#141824" stroke="#23283B"/>
+  <text x="1241" y="454" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12.5" font-weight="500">4. Monthly Retainer (Hard Neg)</text>
+
+  <!-- Left Panel of Simulator: Incoming Voucher Details -->
+  <rect x="324" y="486" width="490" height="314" rx="12" fill="#131622" stroke="#23283B"/>
+  <text x="348" y="518" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11" font-weight="700" letter-spacing="1">INCOMING VOUCHER PAYLOAD</text>
+  <rect x="664" y="500" width="128" height="24" rx="6" fill="#EF4444" fill-opacity="0.16" stroke="#EF4444" stroke-opacity="0.4"/>
+  <text x="728" y="516" text-anchor="middle" fill="#FCA5A5" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">HOLD_PAYMENT</text>
+
+  <text x="348" y="554" fill="#64748B" font-family="Inter, sans-serif" font-size="12">Supplier Name:</text>
+  <text x="490" y="554" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="13" font-weight="600">Apex Industrial Supplies Pvt Ltd (VND-004)</text>
+
+  <text x="348" y="586" fill="#64748B" font-family="Inter, sans-serif" font-size="12">Submitted Invoice #:</text>
+  <text x="490" y="586" fill="#FCA5A5" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="700">INV-2O25-010151  (OCR 'O' mutation)</text>
+
+  <text x="348" y="618" fill="#64748B" font-family="Inter, sans-serif" font-size="12">Prior Paid Invoice #:</text>
+  <text x="490" y="618" fill="#6EE7B7" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="700">INV-2025-010151  (AP-2026-00151)</text>
+
+  <text x="348" y="650" fill="#64748B" font-family="Inter, sans-serif" font-size="12">Gross Total (18% GST):</text>
+  <text x="490" y="650" fill="#F8FAFC" font-family="JetBrains Mono, monospace" font-size="13.5" font-weight="700">₹67,891.57</text>
+
+  <line x1="348" y1="674" x2="790" y2="674" stroke="#222738"/>
+  <text x="348" y="704" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">Standard ERP Baseline:</text>
+  <text x="510" y="704" fill="#F87171" font-family="JetBrains Mono, monospace" font-size="12.5" font-weight="600">MISSED (0.02 — Exact string mismatch)</text>
+
+  <text x="348" y="734" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">LedgerGuard Risk Score:</text>
+  <text x="510" y="734" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="14" font-weight="700">0.97 / 1.00 (Jaro-Winkler: 0.961)</text>
+
+  <text x="348" y="764" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">Primary Reason Code:</text>
+  <text x="510" y="764" fill="#A5B4FC" font-family="JetBrains Mono, monospace" font-size="12.5" font-weight="600">NEAR_DUP_INV_NO_OR_ALIAS</text>
+
+  <!-- Right Panel of Simulator: 4-Layer Step-by-Step Trace -->
+  <rect x="834" y="486" width="538" height="314" rx="12" fill="#131622" stroke="#23283B"/>
+  <text x="858" y="518" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11" font-weight="700" letter-spacing="1">4-LAYER EXECUTION TRACE</text>
+
+  <rect x="858" y="534" width="490" height="54" rx="8" fill="#171B29" stroke="#252B3F"/>
+  <circle cx="880" cy="561" r="6" fill="#10B981"/>
+  <text x="898" y="556" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="12.5" font-weight="600">Layer 1: GSTIN Checksum &amp; Tax Math Gate — PASS</text>
+  <text x="898" y="575" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11.5">GSTIN 27AABCA6390D1Z9 valid Mod-36; ₹57,535.23 + 18% GST = ₹67,891.57</text>
+
+  <rect x="858" y="598" width="490" height="60" rx="8" fill="#261922" stroke="#EF4444" stroke-opacity="0.5"/>
+  <circle cx="880" cy="628" r="6" fill="#EF4444"/>
+  <text x="898" y="621" fill="#FCA5A5" font-family="Inter, sans-serif" font-size="12.5" font-weight="700">Layer 2: Blocking &amp; Fuzzy OCR Resolution — TRIGGERED (0.97)</text>
+  <text x="898" y="640" fill="#E2E8F0" font-family="Inter, sans-serif" font-size="11.5">Canonicalized 'INV-2O25-010151' → 'INV2025010151' matches AP-2026-00151</text>
+
+  <rect x="858" y="668" width="490" height="50" rx="8" fill="#171B29" stroke="#252B3F"/>
+  <circle cx="880" cy="693" r="6" fill="#10B981"/>
+  <text x="898" y="689" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="12.5" font-weight="600">Layer 3: Bipartite Bank Graph — PASS</text>
+  <text x="898" y="707" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11.5">HDFC0000241:50200049182711 linked exclusively to VND-004 (in-degree = 1)</text>
+
+  <rect x="858" y="728" width="490" height="50" rx="8" fill="#171B29" stroke="#252B3F"/>
+  <circle cx="880" cy="753" r="6" fill="#10B981"/>
+  <text x="898" y="749" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="12.5" font-weight="600">Layer 4: Velocity &amp; Price Cohort Scoring — PASS</text>
+  <text x="898" y="767" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11.5">Unit price ratio 1.00x supplier median; no sub-₹50k split cluster</text>
+</svg>

@@ -4,6 +4,36 @@
 
 ---
 
+## Visual Tour & Live Workspace Previews
+
+### 1. Stage 6 Head-to-Head Benchmark (`100.0%` Hybrid Capture vs. `27.3%` Standard ERP Baseline)
+> Evaluates **10,000 synthetic Indian AP invoices** (`SEED = 42`: `9,000` clean + `200` recurring monthly retainer hard negatives + `1,000` injected anomalies across 7 fraud/error typologies) in **0.23s**, achieving **100.0% near-duplicate recall** (vs. **27.27%** ERP exact-match), **100.0% split-PO capture** (vs. **0.0%** ERP), and **0.00% false holds** on recurring monthly retainers.
+
+![Stage 6 Benchmarks — 100.0% vs 27.3% ERP Capture](./screenshots/03_stage6_benchmarks.svg)
+
+---
+
+### 2. 4-Layer Hybrid Engine Flow & Interactive Invoice Simulator
+> Traces every incoming AP voucher through **Layer 1 (15-Char GSTIN Mod-36 & 18% GST Tax Math Gate)**, **Layer 2 (Candidate Blocking, OCR Homoglyph Resolution & Monthly Retainer Guardrail)**, **Layer 3 (Bipartite Vendor-to-Bank Graph Link Analysis)**, and **Layer 4 (72-Hour Split-PO Velocity & Unit Price Cohort Drift)**.
+
+![4-Layer Hybrid Engine Flow & Interactive Simulator](./screenshots/02_4layer_engine_flow.svg)
+
+---
+
+### 3. Executive Overview & Pre-Disbursement KPI Workspace
+> Clean 4-view Left-Sidebar workspace highlighting protected disbursement exposure (**₹15.93 Cr** vs. **₹2.50 Cr** ERP baseline), top-100 alert precision (**100.0%**), and one-click access to live PDF/image invoice testing.
+
+![Overview & Live Demo Workspace](./screenshots/01_overview_workspace.svg)
+
+---
+
+### 4. Auditor Triage Workbench & Forensic Side-by-Side Character Diff
+> Interleaves high-risk alerts across all 7 anomaly typologies (`OCR Typo Duplicate`, `Split Invoice (>₹50k)`, `Shared Bank Account`, `Tax Math / Low OCR`, `Unit Price Inflation`, `Exact Duplicate`) with character-level OCR diffing (`INV-2O25-010151` vs. `INV-2025-010151`), PDF bounding-box provenance, and an immutable human-in-the-loop disposition log.
+
+![Auditor Triage Workbench & Forensic Diff](./screenshots/04_triage_workbench_diff.svg)
+
+---
+
 ## 1. System Architecture
 
 ```text

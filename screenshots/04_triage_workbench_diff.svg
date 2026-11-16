@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="860" viewBox="0 0 1440 860" fill="none">
+  <defs>
+    <linearGradient id="bgGrad4" x1="720" y1="0" x2="720" y2="860" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B0D16"/>
+      <stop offset="100%" stop-color="#06070A"/>
+    </linearGradient>
+    <linearGradient id="brandGrad4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="50%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="860" rx="14" fill="url(#bgGrad4)"/>
+  <rect x="0.5" y="0.5" width="1439" height="859" rx="13.5" stroke="#1E2230"/>
+
+  <!-- Left Sidebar -->
+  <rect x="1" y="1" width="256" height="858" rx="13" fill="#08090E"/>
+  <line x1="257" y1="1" x2="257" y2="859" stroke="#1B1E2B" stroke-width="1"/>
+
+  <rect x="20" y="22" width="38" height="38" rx="10" fill="url(#brandGrad4)"/>
+  <path d="M39 30L47 34V41C47 46 43.5 50 39 52C34.5 50 31 46 31 41V34L39 30Z" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <path d="M36 41L38.2 43.2L42.5 38.5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="68" y="39" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="15" font-weight="700">LedgerGuard AI</text>
+  <text x="68" y="55" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11" font-weight="500">AP Audit Intelligence</text>
+
+  <text x="24" y="92" fill="#64748B" font-family="Inter, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">WORKSPACE VIEWS</text>
+
+  <rect x="16" y="104" width="224" height="40" rx="10" fill="transparent"/>
+  <circle cx="34" cy="124" r="4" fill="#64748B"/>
+  <text x="48" y="129" fill="#94A3B8" font-family="Inter, sans-serif" font-size="13" font-weight="500">Overview &amp; Live Demo</text>
+
+  <!-- Active: Triage Workbench -->
+  <rect x="16" y="150" width="224" height="40" rx="10" fill="#6366F1" fill-opacity="0.16" stroke="#6366F1" stroke-opacity="0.4"/>
+  <circle cx="34" cy="170" r="5" fill="#818CF8"/>
+  <text x="48" y="175" fill="#E0E7FF" font-family="Inter, sans-serif" font-size="13" font-weight="600">Triage Workbench</text>
+  <rect x="184" y="160" width="44" height="20" rx="6" fill="#F59E0B" fill-opacity="0.2" stroke="#F59E0B" stroke-opacity="0.45"/>
+  <text x="206" y="174" text-anchor="middle" fill="#FCD34D" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">1,000</text>
+
+  <rect x="16" y="196" width="224" height="40" rx="10" fill="transparent"/>
+  <circle cx="34" cy="216" r="4" fill="#64748B"/>
+  <text x="48" y="221" fill="#94A3B8" font-family="Inter, sans-serif" font-size="13" font-weight="500">4-Layer Engine Flow</text>
+
+  <rect x="16" y="242" width="224" height="40" rx="10" fill="transparent"/>
+  <circle cx="34" cy="262" r="4" fill="#64748B"/>
+  <text x="48" y="267" fill="#94A3B8" font-family="Inter, sans-serif" font-size="13" font-weight="500">Stage 6 Benchmarks</text>
+  <rect x="186" y="252" width="42" height="20" rx="6" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-opacity="0.35"/>
+  <text x="207" y="266" text-anchor="middle" fill="#6EE7B7" font-family="JetBrains Mono, monospace" font-size="11" font-weight="600">100%</text>
+
+  <line x1="20" y1="690" x2="236" y2="690" stroke="#1B1E2B"/>
+  <rect x="16" y="706" width="224" height="38" rx="10" fill="#6366F1"/>
+  <text x="128" y="730" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="12.5" font-weight="600">＋ Test Live Invoice</text>
+  <rect x="16" y="752" width="224" height="36" rx="10" fill="#12141D" stroke="#232736"/>
+  <text x="115" y="775" text-anchor="middle" fill="#CBD5E1" font-family="Inter, sans-serif" font-size="12.5" font-weight="500">Audit Trail Log</text>
+  <rect x="16" y="800" width="224" height="36" rx="10" fill="#0D0F17" stroke="#1B1E2B"/>
+  <circle cx="32" cy="818" r="4.5" fill="#10B981"/>
+  <text x="45" y="822" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11.5" font-weight="500">Engine Online • 0.23s (10k)</text>
+
+  <!-- Top Context Bar -->
+  <line x1="257" y1="57" x2="1440" y2="57" stroke="#1B1E2B"/>
+  <text x="292" y="34" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="14" font-weight="600">Triage Workbench</text>
+  <text x="424" y="34" fill="#64748B" font-family="Inter, sans-serif" font-size="13">/  Pre-Disbursement Risk Queue &amp; Side-by-Side Forensic Diff</text>
+
+  <!-- Filter Bar -->
+  <rect x="292" y="78" width="1112" height="58" rx="12" fill="#0F1117" stroke="#23283B"/>
+  <rect x="308" y="92" width="56" height="30" rx="7" fill="#6366F1"/>
+  <text x="336" y="111" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="12" font-weight="600">All</text>
+
+  <rect x="372" y="92" width="142" height="30" rx="7" fill="#151926"/>
+  <text x="443" y="111" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12" font-weight="500">Duplicate / OCR Typo</text>
+
+  <rect x="522" y="92" width="146" height="30" rx="7" fill="#151926"/>
+  <text x="595" y="111" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12" font-weight="500">Split Invoice (&gt;₹50k)</text>
+
+  <rect x="676" y="92" width="146" height="30" rx="7" fill="#151926"/>
+  <text x="749" y="111" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12" font-weight="500">Shared Bank Account</text>
+
+  <rect x="830" y="92" width="136" height="30" rx="7" fill="#151926"/>
+  <text x="898" y="111" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12" font-weight="500">Tax Math / Low OCR</text>
+
+  <rect x="974" y="92" width="120" height="30" rx="7" fill="#151926"/>
+  <text x="1034" y="111" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12" font-weight="500">Price Drift</text>
+
+  <rect x="1264" y="92" width="124" height="30" rx="7" fill="#171B29" stroke="#2A3045"/>
+  <text x="1326" y="111" text-anchor="middle" fill="#CBD5E1" font-family="Inter, sans-serif" font-size="12" font-weight="500">↓ Export CSV</text>
+
+  <!-- Diversified Triage Queue Table -->
+  <rect x="292" y="150" width="1112" height="360" rx="14" fill="#0F1117" stroke="#23283B"/>
+  <!-- Table Header -->
+  <rect x="293" y="151" width="1110" height="40" rx="13" fill="#131722"/>
+  <text x="314" y="175" fill="#64748B" font-family="Inter, sans-serif" font-size="11" font-weight="700">RISK SCORE</text>
+  <text x="420" y="175" fill="#64748B" font-family="Inter, sans-serif" font-size="11" font-weight="700">SUPPLIER &amp; GSTIN</text>
+  <text x="690" y="175" fill="#64748B" font-family="Inter, sans-serif" font-size="11" font-weight="700">INVOICE # &amp; DATE</text>
+  <text x="885" y="175" fill="#64748B" font-family="Inter, sans-serif" font-size="11" font-weight="700">GROSS AMOUNT</text>
+  <text x="1025" y="175" fill="#64748B" font-family="Inter, sans-serif" font-size="11" font-weight="700">PRIMARY REASON</text>
+  <text x="1384" y="175" text-anchor="end" fill="#64748B" font-family="Inter, sans-serif" font-size="11" font-weight="700">STATUS / ACTION</text>
+
+  <!-- Row 1: OCR Typo Duplicate -->
+  <line x1="293" y1="242" x2="1403" y2="242" stroke="#1C2030"/>
+  <rect x="314" y="204" width="54" height="24" rx="6" fill="#EF4444" fill-opacity="0.16" stroke="#EF4444" stroke-opacity="0.4"/>
+  <text x="341" y="220" text-anchor="middle" fill="#FCA5A5" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">0.97</text>
+  <text x="420" y="214" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="13" font-weight="600">Apex Industrial Supplies Pvt Ltd</text>
+  <text x="420" y="231" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="11">27AABCA6390D1Z9</text>
+  <text x="690" y="214" fill="#E2E8F0" font-family="JetBrains Mono, monospace" font-size="12.5" font-weight="600">INV-2O25-010151</text>
+  <text x="690" y="231" fill="#64748B" font-family="Inter, sans-serif" font-size="11">2025-11-18  •  vs AP-2026-00151</text>
+  <text x="885" y="221" fill="#F8FAFC" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700">₹67,891.57</text>
+  <rect x="1025" y="204" width="154" height="24" rx="6" fill="#6366F1" fill-opacity="0.16"/>
+  <text x="1102" y="220" text-anchor="middle" fill="#A5B4FC" font-family="Inter, sans-serif" font-size="11.5" font-weight="600">OCR Typo Duplicate</text>
+  <rect x="1282" y="203" width="104" height="26" rx="7" fill="#6366F1"/>
+  <text x="1334" y="220" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11.5" font-weight="600">Review Diff →</text>
+
+  <!-- Row 2: Split Invoice (>₹50k) -->
+  <line x1="293" y1="294" x2="1403" y2="294" stroke="#1C2030"/>
+  <rect x="314" y="256" width="54" height="24" rx="6" fill="#F59E0B" fill-opacity="0.16" stroke="#F59E0B" stroke-opacity="0.4"/>
+  <text x="341" y="272" text-anchor="middle" fill="#FCD34D" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">0.91</text>
+  <text x="420" y="266" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="13" font-weight="600">Deccan Precision Engineering Ltd</text>
+  <text x="420" y="283" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="11">36AABCD1842K1Z4</text>
+  <text x="690" y="266" fill="#E2E8F0" font-family="JetBrains Mono, monospace" font-size="12.5" font-weight="600">INV-2025-010551</text>
+  <text x="690" y="283" fill="#64748B" font-family="Inter, sans-serif" font-size="11">2025-08-14  •  3 bills in 72h</text>
+  <text x="885" y="273" fill="#F8FAFC" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700">₹41,280.00</text>
+  <rect x="1025" y="256" width="154" height="24" rx="6" fill="#F59E0B" fill-opacity="0.16"/>
+  <text x="1102" y="272" text-anchor="middle" fill="#FCD34D" font-family="Inter, sans-serif" font-size="11.5" font-weight="600">Split Invoice (&gt;₹50k)</text>
+  <rect x="1282" y="255" width="104" height="26" rx="7" fill="#171B29" stroke="#2D3348"/>
+  <text x="1334" y="272" text-anchor="middle" fill="#E2E8F0" font-family="Inter, sans-serif" font-size="11.5" font-weight="600">Review Diff →</text>
+
+  <!-- Row 3: Shared Bank Account -->
+  <line x1="293" y1="346" x2="1403" y2="346" stroke="#1C2030"/>
+  <rect x="314" y="308" width="54" height="24" rx="6" fill="#EC4899" fill-opacity="0.16" stroke="#EC4899" stroke-opacity="0.4"/>
+  <text x="341" y="324" text-anchor="middle" fill="#F472B6" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">0.93</text>
+  <text x="420" y="318" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="13" font-weight="600">Kaveri Electricals &amp; Switchgear</text>
+  <text x="420" y="335" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="11">33AABCK9912E1Z2</text>
+  <text x="690" y="318" fill="#E2E8F0" font-family="JetBrains Mono, monospace" font-size="12.5" font-weight="600">INV-2025-010701</text>
+  <text x="690" y="335" fill="#64748B" font-family="Inter, sans-serif" font-size="11">2025-10-03  •  Shared IFSC/Acct</text>
+  <text x="885" y="325" fill="#F8FAFC" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700">₹84,960.00</text>
+  <rect x="1025" y="308" width="154" height="24" rx="6" fill="#EC4899" fill-opacity="0.16"/>
+  <text x="1102" y="324" text-anchor="middle" fill="#F472B6" font-family="Inter, sans-serif" font-size="11.5" font-weight="600">Shared Bank Account</text>
+  <rect x="1282" y="307" width="104" height="26" rx="7" fill="#171B29" stroke="#2D3348"/>
+  <text x="1334" y="324" text-anchor="middle" fill="#E2E8F0" font-family="Inter, sans-serif" font-size="11.5" font-weight="600">Review Diff →</text>
+
+  <!-- Row 4: Tax Math / Low OCR -->
+  <line x1="293" y1="398" x2="1403" y2="398" stroke="#1C2030"/>
+  <rect x="314" y="360" width="54" height="24" rx="6" fill="#F59E0B" fill-opacity="0.16" stroke="#F59E0B" stroke-opacity="0.4"/>
+  <text x="341" y="376" text-anchor="middle" fill="#FCD34D" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">0.89</text>
+  <text x="420" y="370" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="13" font-weight="600">Narmada Logistics &amp; Freight</text>
+  <text x="420" y="387" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="11">24AABCN4109M1Z0</text>
+  <text x="690" y="370" fill="#E2E8F0" font-family="JetBrains Mono, monospace" font-size="12.5" font-weight="600">INV-2025-010801</text>
+  <text x="690" y="387" fill="#64748B" font-family="Inter, sans-serif" font-size="11">2025-12-09  •  OCR Conf: 0.71</text>
+  <text x="885" y="377" fill="#F8FAFC" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700">₹73,410.00</text>
+  <rect x="1025" y="360" width="154" height="24" rx="6" fill="#F59E0B" fill-opacity="0.16"/>
+  <text x="1102" y="376" text-anchor="middle" fill="#FCD34D" font-family="Inter, sans-serif" font-size="11.5" font-weight="600">Tax Math / Low OCR</text>
+  <rect x="1282" y="359" width="104" height="26" rx="7" fill="#171B29" stroke="#2D3348"/>
+  <text x="1334" y="376" text-anchor="middle" fill="#E2E8F0" font-family="Inter, sans-serif" font-size="11.5" font-weight="600">Review Diff →</text>
+
+  <!-- Row 5: Exact Duplicate (Confirmed Badge) -->
+  <rect x="314" y="412" width="54" height="24" rx="6" fill="#EF4444" fill-opacity="0.16" stroke="#EF4444" stroke-opacity="0.4"/>
+  <text x="341" y="428" text-anchor="middle" fill="#FCA5A5" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">0.99</text>
+  <text x="420" y="422" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="13" font-weight="600">Bharat Industrial Supplies Pvt Ltd</text>
+  <text x="420" y="439" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="11">27AABCB1092F1Z8</text>
+  <text x="690" y="422" fill="#E2E8F0" font-family="JetBrains Mono, monospace" font-size="12.5" font-weight="600">INV-2025-010001</text>
+  <text x="690" y="439" fill="#64748B" font-family="Inter, sans-serif" font-size="11">2025-09-12  •  vs AP-2026-00001</text>
+  <text x="885" y="429" fill="#F8FAFC" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700">₹55,106.00</text>
+  <rect x="1025" y="412" width="154" height="24" rx="6" fill="#EF4444" fill-opacity="0.16"/>
+  <text x="1102" y="428" text-anchor="middle" fill="#FCA5A5" font-family="Inter, sans-serif" font-size="11.5" font-weight="600">Exact Duplicate</text>
+  <rect x="1282" y="411" width="104" height="26" rx="7" fill="#10B981" fill-opacity="0.16" stroke="#10B981" stroke-opacity="0.4"/>
+  <text x="1334" y="428" text-anchor="middle" fill="#6EE7B7" font-family="Inter, sans-serif" font-size="11.5" font-weight="600">✓ Confirmed</text>
+
+  <!-- Bottom Forensic Side-by-Side Diff Callout Preview -->
+  <rect x="292" y="528" width="1112" height="300" rx="16" fill="#0F1117" stroke="#6366F1" stroke-opacity="0.5"/>
+  <text x="324" y="564" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="16" font-weight="700">Forensic Side-by-Side Character Diff &amp; Human-in-the-Loop Disposition</text>
+  <text x="324" y="584" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12.5">Inspecting AP-2026-09151 (Submitted Scan) vs. Historical Paid Voucher AP-2026-00151</text>
+
+  <!-- Diff Box Left: Historical Paid -->
+  <rect x="324" y="602" width="490" height="130" rx="10" fill="#131724" stroke="#10B981" stroke-opacity="0.35"/>
+  <text x="344" y="628" fill="#6EE7B7" font-family="Inter, sans-serif" font-size="11" font-weight="700">HISTORICAL PAID VOUCHER (AP-2026-00151)</text>
+  <text x="344" y="660" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">Invoice Number:</text>
+  <text x="468" y="660" fill="#F8FAFC" font-family="JetBrains Mono, monospace" font-size="15" font-weight="700">INV-2025-010151</text>
+  <text x="344" y="688" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">Gross Total:</text>
+  <text x="468" y="688" fill="#F8FAFC" font-family="JetBrains Mono, monospace" font-size="14" font-weight="600">₹67,891.57  (PO-2025-4419)</text>
+  <text x="344" y="714" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="11">PDF Provenance: page=1, bbox=[142, 88, 310, 114]</text>
+
+  <!-- Diff Box Right: Flagged Resubmission -->
+  <rect x="836" y="602" width="536" height="130" rx="10" fill="#1D141C" stroke="#EF4444" stroke-opacity="0.45"/>
+  <text x="856" y="628" fill="#FCA5A5" font-family="Inter, sans-serif" font-size="11" font-weight="700">FLAGGED RESUBMISSION (AP-2026-09151 • RISK 0.97)</text>
+  <text x="856" y="660" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">Invoice Number:</text>
+  <text x="980" y="660" fill="#FCA5A5" font-family="JetBrains Mono, monospace" font-size="15" font-weight="700">INV-2[O]25-010151</text>
+  <rect x="1152" y="644" width="196" height="22" rx="5" fill="#EF4444" fill-opacity="0.2"/>
+  <text x="1250" y="659" text-anchor="middle" fill="#FCA5A5" font-family="JetBrains Mono, monospace" font-size="11" font-weight="600">Char Diff: '0' → 'O' at idx 5</text>
+  <text x="856" y="688" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">Gross Total:</text>
+  <text x="980" y="688" fill="#F8FAFC" font-family="JetBrains Mono, monospace" font-size="14" font-weight="600">₹67,891.57  (100% Exact Amount Collision)</text>
+  <text x="856" y="714" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="11">Jaro-Winkler Raw: 0.961  •  Canonical Homoglyph Match: 1.000</text>
+
+  <!-- Disposition Action Buttons -->
+  <rect x="324" y="752" width="210" height="40" rx="9" fill="#EF4444"/>
+  <text x="429" y="777" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="12.5" font-weight="600">Confirm Duplicate (Block)</text>
+
+  <rect x="548" y="752" width="190" height="40" rx="9" fill="#F59E0B" fill-opacity="0.2" stroke="#F59E0B"/>
+  <text x="643" y="777" text-anchor="middle" fill="#FCD34D" font-family="Inter, sans-serif" font-size="12.5" font-weight="600">Hold for Vendor Desk</text>
+
+  <rect x="752" y="752" width="210" height="40" rx="9" fill="#171B29" stroke="#2D3348"/>
+  <text x="857" y="777" text-anchor="middle" fill="#CBD5E1" font-family="Inter, sans-serif" font-size="12.5" font-weight="500">Override &amp; Release Payment</text>
+
+  <text x="984" y="777" fill="#64748B" font-family="Inter, sans-serif" font-size="12">Logs immutable entry to backend/audit_trail.json</text>
+</svg>

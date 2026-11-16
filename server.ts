@@ -131,8 +131,8 @@ function readAuditTrail(): AuditEntry[] {
 async function startServer() {
   ensureBackendArtifacts();
 
-  let ledgerRows = parseCsvFile(LEDGER_CSV);
-  let queueRows = parseCsvFile(QUEUE_CSV);
+  let ledgerRows: Record<string, string>[] = [];
+  let queueRows: Record<string, string>[] = [];
   let ledgerById = new Map<string, Record<string, string>>();
 
   const rebuildIndex = () => {
