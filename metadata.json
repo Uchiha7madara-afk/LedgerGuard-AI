@@ -1,0 +1,8 @@
+{
+  "name": "LedgerGuard AI — AP Anomaly & Duplicate Triage Workbench",
+  "description": "Supplier-Aware Accounts Payable (AP) Duplicate Payment & Policy Anomaly Triage Workbench with 4-Layer Hybrid Detection Engine, GSTIN Modulo-36 Verification, and Stage 6 Benchmark Suite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

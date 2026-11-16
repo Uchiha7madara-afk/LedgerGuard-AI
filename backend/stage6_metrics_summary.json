@@ -1,0 +1,104 @@
+{
+  "evaluated_at_utc": "2026-11-15T12:43:52.623418+00:00",
+  "total_ledger_rows": 10000,
+  "total_vendors": 80,
+  "total_clean_rows": 9000,
+  "total_injected_anomalies": 1000,
+  "total_flagged_alerts": 1000,
+  "batch_scoring_latency_sec": 0.2272,
+  "near_duplicate_recall": {
+    "hybrid_pct": 100.0,
+    "erp_baseline_pct": 27.27,
+    "hybrid_caught": 550,
+    "erp_caught": 150,
+    "total_duplicate_anomalies": 550
+  },
+  "precision_at_100": {
+    "precision_pct": 100.0,
+    "true_positives_in_top_100": 100,
+    "false_holds_in_top_100": 0
+  },
+  "split_invoice_capture": {
+    "detection_rate_pct": 100.0,
+    "caught_rows": 150,
+    "total_split_rows": 150,
+    "total_clusters": 50
+  },
+  "recurring_hard_negative": {
+    "false_hold_rate_pct": 0.0,
+    "false_holds": 0,
+    "total_recurring_rows": 200
+  },
+  "abstention_gate": {
+    "routed_count": 100,
+    "ocr_threshold": 0.8,
+    "math_tolerance_inr": 1.0
+  },
+  "overall_comparison": {
+    "hybrid_overall_recall_pct": 100.0,
+    "erp_overall_recall_pct": 15.0,
+    "hybrid_overall_precision_pct": 100.0,
+    "hybrid_brier_score": 0.00135,
+    "erp_brier_score": 0.082,
+    "hybrid_protected_inr": 159307361.16,
+    "erp_protected_inr": 24959213.17
+  },
+  "typology_breakdown": [
+    {
+      "typology": "EXACT_RESUBMISSION",
+      "total_injected": 150,
+      "erp_caught": 150,
+      "erp_recall_pct": 100.0,
+      "hybrid_caught": 150,
+      "hybrid_recall_pct": 100.0
+    },
+    {
+      "typology": "OCR_TYPO_NEAR_DUP",
+      "total_injected": 220,
+      "erp_caught": 0,
+      "erp_recall_pct": 0.0,
+      "hybrid_caught": 220,
+      "hybrid_recall_pct": 100.0
+    },
+    {
+      "typology": "DATE_SHIFT_VENDOR_ALIAS",
+      "total_injected": 180,
+      "erp_caught": 0,
+      "erp_recall_pct": 0.0,
+      "hybrid_caught": 180,
+      "hybrid_recall_pct": 100.0
+    },
+    {
+      "typology": "SPLIT_THRESHOLD_BYPASS",
+      "total_injected": 150,
+      "erp_caught": 0,
+      "erp_recall_pct": 0.0,
+      "hybrid_caught": 150,
+      "hybrid_recall_pct": 100.0
+    },
+    {
+      "typology": "SHARED_BANK_CROSS_VENDOR",
+      "total_injected": 100,
+      "erp_caught": 0,
+      "erp_recall_pct": 0.0,
+      "hybrid_caught": 100,
+      "hybrid_recall_pct": 100.0
+    },
+    {
+      "typology": "TAX_MATH_MISMATCH",
+      "total_injected": 100,
+      "erp_caught": 0,
+      "erp_recall_pct": 0.0,
+      "hybrid_caught": 100,
+      "hybrid_recall_pct": 100.0
+    },
+    {
+      "typology": "UNIT_PRICE_DRIFT",
+      "total_injected": 100,
+      "erp_caught": 0,
+      "erp_recall_pct": 0.0,
+      "hybrid_caught": 100,
+      "hybrid_recall_pct": 100.0
+    }
+  ]
+}
