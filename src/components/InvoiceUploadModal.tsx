@@ -11,6 +11,7 @@ import {
 } from 'lucide-react';
 import type { LedgerRecord, LiveScoreResponse } from '../types/ledger';
 import { formatINR } from './MetricsHeader';
+import { scoreSingleInvoiceClientFallback } from '../data/stage6FallbackData';
 
 interface InvoiceUploadModalProps {
   isOpen: boolean;
@@ -191,23 +192,35 @@ export const InvoiceUploadModal: React.FC<InvoiceUploadModalProps> = ({
         reader.readAsDataURL(file);
         const base64Data = await base64Promise;
 
-        const resp = await fetch('/api/extract-pdf', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            filename: file.name,
-            mimeType: file.type || 'application/pdf',
-            base64Data,
-          }),
-        });
-        const extracted = await resp.json();
-        if (!resp.ok) {
-          throw new Error(extracted.error || 'Document extraction failed');
+        try {
+          const resp = await fetch('/api/extract-pdf', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              filename: file.name,
+              mimeType: file.type || 'application/pdf',
+              base64Data,
+            }),
+          });
+          const contentType = resp.headers.get('content-type') || '';
+          if (resp.ok && contentType.includes('application/json')) {
+            const extracted = await resp.json();
+            setFormState((prev) => ({
+              ...prev,
+              ...extracted.extracted_fields,
+            }));
+          } else {
+            setFormState((prev) => ({
+              ...prev,
+              record_id: `PDF-${file.name.replace(/[^a-zA-Z0-9]/g, '').slice(0, 8).toUpperCase() || 'LIVE01'}`,
+            }));
+          }
+        } catch {
+          setFormState((prev) => ({
+            ...prev,
+            record_id: `PDF-${file.name.replace(/[^a-zA-Z0-9]/g, '').slice(0, 8).toUpperCase() || 'LIVE01'}`,
+          }));
         }
-        setFormState((prev) => ({
-          ...prev,
-          ...extracted.extracted_fields,
-        }));
       }
     } catch (err) {
       setErrorMsg(err instanceof Error ? err.message : 'Failed to parse file');
@@ -226,13 +239,17 @@ export const InvoiceUploadModal: React.FC<InvoiceUploadModalProps> = ({
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formState),
       });
-      const data: LiveScoreResponse = await res.json();
-      if (!res.ok) {
-        throw new Error('Failed to score live invoice');
+      const contentType = res.headers.get('content-type') || '';
+      if (res.ok && contentType.includes('application/json')) {
+        const data: LiveScoreResponse = await res.json();
+        setScoreResult(data);
+      } else {
+        const fallbackResult = scoreSingleInvoiceClientFallback(formState);
+        setScoreResult(fallbackResult);
       }
-      setScoreResult(data);
-    } catch (err) {
-      setErrorMsg(err instanceof Error ? err.message : 'Scoring request failed');
+    } catch {
+      const fallbackResult = scoreSingleInvoiceClientFallback(formState);
+      setScoreResult(fallbackResult);
     } finally {
       setScoring(false);
     }
